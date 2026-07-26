@@ -1,0 +1,20 @@
+# DLT Payments
+
+> DLT Payments (DLTPAY) is a Web3 payments company offering a stablecoin wallet that enables instant business payments in stablecoins across multiple blockchains (Ethereum, Arbitrum, Optimism, Polygon, and BNB Chain) with zero exposure to price volatility.
+
+This is an API Evangelist network profile generated from the public DLT Payments surface. No public API, OpenAPI specification, or developer documentation was found at the time of enrichment; this file will be regenerated if a developer surface is published.
+
+## Company
+- [DLT Payments website](https://dltpay.com/): Web3 payments for business — stablecoin wallet.
+- [DLT Payments app](https://app.dltpay.com): Web application (sign in / sign up).
+- [DLTPAY whitepaper (PDF)](https://www.dltpay.com/dltpay-whitepaper.pdf): Product and protocol overview.
+
+## Legal
+- [Terms of Service](https://dltpay.com/terms)
+- [Privacy Policy](https://dltpay.com/privacy)
+
+## Social
+- [Medium](https://medium.com/@dltpay)
+- [Twitter/X](https://twitter.com/dltpay)
+- [LinkedIn](https://www.linkedin.com/company/dltpay/)
+- [Instagram](https://www.instagram.com/dltpayments)

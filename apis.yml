@@ -1,7 +1,27 @@
 aid: dlt-payments
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dlt-payments.png
 name: DLT Payments
-description: DLT Payments is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DLT Payments (DLTPAY) is a Web3 payments company offering a stablecoin wallet
+  that enables businesses to send and receive instant payments in stablecoins
+  across multiple blockchain networks — Ethereum, Arbitrum, Optimism, Polygon,
+  and BNB Chain — with zero exposure to cryptocurrency price volatility. The
+  product targets merchants and businesses that want the settlement speed and
+  low cost of blockchain rails without the FX risk of holding volatile tokens.
+  DLT Payments is a Techstars portfolio company. Added to the API Evangelist
+  network and enriched from its public web surface; no public API, OpenAPI
+  specification, or developer documentation was discovered at enrichment time.
 url: https://raw.githubusercontent.com/api-evangelist/dlt-payments/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Payments
+- Stablecoin
+- Cryptocurrency
+- Blockchain
+- Web3
+- Wallet
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://dltpay.com/
+- type: Login
+  url: https://app.dltpay.com
+- type: TermsOfService
+  url: https://dltpay.com/terms
+- type: PrivacyPolicy
+  url: https://dltpay.com/privacy
+- type: Blog
+  url: https://medium.com/@dltpay
+- type: DomainSecurity
+  url: security/dlt-payments-domain-security.yml
+- type: LLMsTxt
+  url: llms/dlt-payments-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
